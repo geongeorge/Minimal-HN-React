@@ -1,5 +1,5 @@
-<p align="center">
-<h3>Hacker News Reader React</h3>
+<div align="center">
+<h1>Hacker News Reader React</h1>
 <img src="https://i.imgur.com/U0DXOHD.png" width=700>
 
 Simple hacker news reader made with reactjs.
@@ -8,7 +8,7 @@ Simple hacker news reader made with reactjs.
 
 *(In the demo the routing does not work properly because it's on gh-pages static hosting and reach router does not have a hash mode 🥉)*
 
-</p>
+</div>
 
 
 ## Available Scripts
