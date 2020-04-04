@@ -1,5 +1,8 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import { Link, Match } from "@reach/router"
+import {storyTypes} from '../../api/api'
+
+import "./Nav.css"
 
 const NavLink = props => (
     <Link
@@ -17,13 +20,29 @@ const NavLink = props => (
 
 export default function Nav(props) {
 
+  const [typeList, setTypeList] = useState([])
+
+  useEffect(() => {
+    const types = storyTypes.map((el)=>{
+      let text = el.charAt(0).toUpperCase() + el.slice(1)
+      let link = el
+      if(el==="top") link = "/"
+      return {text,link}
+    })
+    setTypeList(types)
+  },[])
+  
+
     return (
         
         <header className="App-header">
             <div className="bg-gray-200">
-            <nav class="container p-4 mx-auto">
-                <NavLink to="/">Home</NavLink> |{" "}
-                <NavLink to="show">Show</NavLink>
+            <nav className="container p-4 mx-auto App-nav">
+              {
+                typeList.map((val,index) => {
+                  return <NavLink key={index} to={val.link}>{val.text}</NavLink>
+                })
+              }
             </nav>
             <div>
             </div>

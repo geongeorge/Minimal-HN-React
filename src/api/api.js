@@ -39,7 +39,7 @@ function getPost(postid) {
     })
 }
 
-export {getStories,getPost}
+export {getStories,getPost,storyTypes}
 
 
 // get a post 

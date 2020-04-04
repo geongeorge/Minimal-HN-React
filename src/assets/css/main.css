@@ -8165,15 +8165,15 @@ video {
   text-decoration: none;
 }
 
-.focus\:underline:focus {
+.group:hover .group-hover\:underline {
   text-decoration: underline;
 }
 
-.focus\:line-through:focus {
+.group:hover .group-hover\:line-through {
   text-decoration: line-through;
 }
 
-.focus\:no-underline:focus {
+.group:hover .group-hover\:no-underline {
   text-decoration: none;
 }
 
@@ -18448,42 +18448,6 @@ video {
     text-transform: none;
   }
 
-  .sm\:underline {
-    text-decoration: underline;
-  }
-
-  .sm\:line-through {
-    text-decoration: line-through;
-  }
-
-  .sm\:no-underline {
-    text-decoration: none;
-  }
-
-  .sm\:hover\:underline:hover {
-    text-decoration: underline;
-  }
-
-  .sm\:hover\:line-through:hover {
-    text-decoration: line-through;
-  }
-
-  .sm\:hover\:no-underline:hover {
-    text-decoration: none;
-  }
-
-  .sm\:focus\:underline:focus {
-    text-decoration: underline;
-  }
-
-  .sm\:focus\:line-through:focus {
-    text-decoration: line-through;
-  }
-
-  .sm\:focus\:no-underline:focus {
-    text-decoration: none;
-  }
-
   .sm\:antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28754,42 +28718,6 @@ video {
 
   .md\:normal-case {
     text-transform: none;
-  }
-
-  .md\:underline {
-    text-decoration: underline;
-  }
-
-  .md\:line-through {
-    text-decoration: line-through;
-  }
-
-  .md\:no-underline {
-    text-decoration: none;
-  }
-
-  .md\:hover\:underline:hover {
-    text-decoration: underline;
-  }
-
-  .md\:hover\:line-through:hover {
-    text-decoration: line-through;
-  }
-
-  .md\:hover\:no-underline:hover {
-    text-decoration: none;
-  }
-
-  .md\:focus\:underline:focus {
-    text-decoration: underline;
-  }
-
-  .md\:focus\:line-through:focus {
-    text-decoration: line-through;
-  }
-
-  .md\:focus\:no-underline:focus {
-    text-decoration: none;
   }
 
   .md\:antialiased {
@@ -39064,42 +38992,6 @@ video {
     text-transform: none;
   }
 
-  .lg\:underline {
-    text-decoration: underline;
-  }
-
-  .lg\:line-through {
-    text-decoration: line-through;
-  }
-
-  .lg\:no-underline {
-    text-decoration: none;
-  }
-
-  .lg\:hover\:underline:hover {
-    text-decoration: underline;
-  }
-
-  .lg\:hover\:line-through:hover {
-    text-decoration: line-through;
-  }
-
-  .lg\:hover\:no-underline:hover {
-    text-decoration: none;
-  }
-
-  .lg\:focus\:underline:focus {
-    text-decoration: underline;
-  }
-
-  .lg\:focus\:line-through:focus {
-    text-decoration: line-through;
-  }
-
-  .lg\:focus\:no-underline:focus {
-    text-decoration: none;
-  }
-
   .lg\:antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -49370,42 +49262,6 @@ video {
 
   .xl\:normal-case {
     text-transform: none;
-  }
-
-  .xl\:underline {
-    text-decoration: underline;
-  }
-
-  .xl\:line-through {
-    text-decoration: line-through;
-  }
-
-  .xl\:no-underline {
-    text-decoration: none;
-  }
-
-  .xl\:hover\:underline:hover {
-    text-decoration: underline;
-  }
-
-  .xl\:hover\:line-through:hover {
-    text-decoration: line-through;
-  }
-
-  .xl\:hover\:no-underline:hover {
-    text-decoration: none;
-  }
-
-  .xl\:focus\:underline:focus {
-    text-decoration: underline;
-  }
-
-  .xl\:focus\:line-through:focus {
-    text-decoration: line-through;
-  }
-
-  .xl\:focus\:no-underline:focus {
-    text-decoration: none;
   }
 
   .xl\:antialiased {

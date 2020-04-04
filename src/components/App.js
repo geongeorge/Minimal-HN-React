@@ -5,8 +5,7 @@ import { Router} from "@reach/router"
 
 import Nav from './utils/Nav'
 
-import Home from './Pages/Home'
-import Show from './Pages/Show'
+import List from './Pages/List'
 
 function App() {
 
@@ -16,8 +15,8 @@ function App() {
       <div className="content-container container mx-auto px-4">
         <div>
           <Router>
-            <Home path="/" />
-          <Show path="show" />
+            <List path="/" />
+            <List path="/:story" />
           </Router>
         </div>
         

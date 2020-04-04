@@ -3,7 +3,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    textDecoration:['group-hover']
+    textDecoration:['hover','group-hover']
   },
   plugins: [],
 }
