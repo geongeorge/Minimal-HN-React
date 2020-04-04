@@ -1,13 +1,14 @@
-# Hacker News Reader React
-
-<img src="https://i.imgur.com/U0DXOHD.png" width=500>
+<section align="center">
+<h1>Hacker News Reader React</h1>
+<img src="https://i.imgur.com/U0DXOHD.png" width=700>
 
 Simple hacker news reader made with reactjs.
 
-[Demo Page](https://geongeorge.github.io/Minimal-HN-React)
+[Demo Page 🚀](https://geongeorge.github.io/Minimal-HN-React)
 
 *(In the demo the routing does not work properly because it's on gh-pages static hosting and reach router does not have a hash mode 🥉)*
 
+</section>
 
 
 ## Available Scripts
