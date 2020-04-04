@@ -1,6 +1,6 @@
 # Hacker News Reader React
 
-<img src="https://i.imgur.com/U0DXOHD.png" width=300>
+<img src="https://i.imgur.com/U0DXOHD.png" width=500>
 
 Simple hacker news reader made with reactjs.
 
