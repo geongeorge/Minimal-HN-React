@@ -20,8 +20,8 @@ export default function Nav(props) {
     return (
         
         <header className="App-header">
-            <div className="p-4 bg-gray-200 mx-auto">
-            <nav>
+            <div className="bg-gray-200">
+            <nav class="container p-4 mx-auto">
                 <NavLink to="/">Home</NavLink> |{" "}
                 <NavLink to="show">Show</NavLink>
             </nav>

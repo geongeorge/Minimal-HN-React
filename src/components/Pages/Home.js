@@ -10,12 +10,11 @@ function Home() {
     const [isOpen, setOpen] = useState(false);
 
     const [posts,setPosts] = useState([]);
-    const [showPosts,setShowPosts] = useState(false);
 
     useEffect(() => {
         async function fetchData() {
             const stories = await getStories("top");
-            setPosts(stories,()=>setOpen(true))
+            setPosts(stories)
             // animate
             
         }

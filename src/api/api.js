@@ -28,7 +28,7 @@ function getStories(type = storyTypes[0]) {
 
 function getPost(postid) {
     return new Promise((resolve,reject)=>{
-        api.get(`/${postid}.json`)
+        api.get(`/item/${postid}.json`)
       .then(res => {
         const stories = res.data
         resolve(stories)
