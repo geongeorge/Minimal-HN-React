@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Hacker News Reader React</h1>
+<h1>Hacker News Reader React 📖</h1>
 <img src="https://i.imgur.com/U0DXOHD.png" width=700>
 
 Simple hacker news reader made with reactjs.
