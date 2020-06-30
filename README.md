@@ -4,7 +4,7 @@
 
 Simple hacker news reader made with reactjs.
 
-[Demo Page 🚀](https://geongeorge.github.io/Minimal-HN-React)
+[Demo Page 🚀](https://hn-react.vercel.app)
 
 *(In the demo the routing does not work properly because it's on gh-pages static hosting and reach router does not have a hash mode 🥉)*
 
